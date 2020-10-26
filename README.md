@@ -11,6 +11,7 @@ About:
 3) Incorporated a functionality to cancel the attendance in the attendance database if a student is not detected in frame for more than 10 minutes.
 
 Pipeline:
+
 Step 1: Face detection in the input image/input videostream/webcam input carried out by HOG (Histogram of Oriented Gradients) mechanism of face_recognition module.
 
 Step 2: Face at different angles rotated, scaled or sheared using DLIB's 68 facial landmarks for better recognition.
