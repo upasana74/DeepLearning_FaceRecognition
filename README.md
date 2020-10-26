@@ -18,8 +18,11 @@ Step 4: Support Vector Machine (SVM) used as a linear classifier to find the per
 
 Hurdles:
 1) At first I had used machine learning algorithms like Eigenface, Fisherface and even Haarcascades but they gave low accuracy and low F1 Scores
+
 2) Had to do many trial and error with the database as training of database was taking a lot of time and at times the laptop would crash as it only has CPU and no GPU
+
 3) Tried to solve GPU limitation problems by trying out code on google collab but could not take real-time video input from webcam
+
 4) As the model was too heavy(ResNet-34), the real-time video output was with 5-7 secs lag
 
 
